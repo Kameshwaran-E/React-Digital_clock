@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react'
 
-function Clock() {
+function Clock() {                            //functional Component
     const [clockState,setState] = useState();
 
         useEffect(()=>{
